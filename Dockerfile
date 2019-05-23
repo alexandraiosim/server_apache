@@ -1,5 +1,5 @@
 FROM ubuntu:xenial
-MAINTAINER Dan Pupius <dan@pupi.us>
+MAINTAINER Iosim Alexandra <test@test.com>
 
 # Install apache, PHP, and supplimentary programs. openssh-server, curl, and lynx-cur are for debugging the container.
 RUN apt-get update && apt-get -y upgrade && DEBIAN_FRONTEND=noninteractive apt-get -y install \
